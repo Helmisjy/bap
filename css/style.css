@@ -149,8 +149,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .1);
     z-index: 1;
+}
+
+.carousel-caption .col-10{
+    right: 100px;
 }
 
 .btn {
@@ -189,7 +193,9 @@
 }
 
 .page-header-inner {
-    /* background: rgba(0, 0, 0, .7); */
+    background: rgba(0, 0, 0, .7);
+    /* filter: blur(8px);
+    --webkit-filter:blur(8px); */
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
